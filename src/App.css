@@ -1,0 +1,43 @@
+
+:root{
+ background-color: #000000;
+ 
+}
+
+.form {
+
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 719px;
+    height: 60px;
+    left: 360px;
+    top: 479px;
+    
+    background: rgba(0, 0, 0, 0.3);
+    border: 2px solid #8EFF8B;
+
+}
+
+.button{
+    
+    width: 215px;
+    height: 60px;
+    left: 864px;
+    top: 479px;
+    
+    background: rgba(142, 255, 139, 0.5);
+    border: 2px solid #8EFF8B;
+}
+
+.App{
+ color: #FBFBFB;;   
+position: absolute;
+width: 1440px;
+height: 712px;
+left: 0px;
+top: 0px;
+
+background: #000000;
+}
+
