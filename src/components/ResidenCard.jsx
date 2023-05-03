@@ -31,7 +31,7 @@ const ResidenCard = ({resident}) => {
       </div>
       <section className="">
         {/* Resident location with styles */}
-        <h3 className=' text-xl text-[#8EFF8B] py-3 text-center'>{resideninfo?.location.name}</h3>
+        <h3 className=' h3 text-xl text-[#8EFF8B] py-3 text-center'>{resideninfo?.location.name}</h3>
         <ul className='m-5 '>
           {/* Resident species with styles */}
           <li>

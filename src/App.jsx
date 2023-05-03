@@ -33,16 +33,16 @@ function App() {
   return (
     <main className='w-100% '>
       <section className='w-100% '>
-    <div className="App  max-h-min bg-[url('public/bg.png')] bg-cover]"  >
+    <div className="App max-h-min bg-[url('/bg.png')] bg-cover"  >
         <div className='w-full bg-cover'>
        <form className=' form ' onSubmit={handleSubmit}>
          <div className='text-center border-solid border-3 border-[#8EFF8B] '>
           <div className='flex min-h-0 justify-center  '>
-            <img className='h-1/5 bg-cover opacyty-25  ' src="public/Ellipse.png" alt="" />
+            <img className='h-1/5 bg-cover opacyty-25  ' src="/Ellipse.png" alt="" />
             <div className=' container absolute justify-center top-0 left-1/2 transform -translate-x-1/2'>
-              <img className=" img2 max-w-5xl sm:max-w-8xl mx-auto " src="public/img4.png" alt="" />
+              <img className=" img2 max-w-5xl sm:max-w-8xl mx-auto " src="/img4.png" alt="" />
                <div className='flex justify-center -wed-inspector-hide-shortkut'>
-                 <img className='' src="public/nombre 1.png" alt="" />
+                 <img className='' src="/nombre 1.png" alt="" />
               </div>
             </div>
           </div>
