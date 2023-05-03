@@ -1,5 +1,6 @@
 
 .elh2{
+    
     font-family: 'Creepster', cursive;
     animation: moveTitle 2s linear infinite;
 }
@@ -14,6 +15,35 @@
         transform: translate(0);
     }
     }
+
+    .container2{
+       
+    }
+
+    .containerpuntorojo{
+        animation: shine 2s ease-in-out infinite;
+    }
+    @keyframes shine {
+        0% {
+          transform: scale(1);
+          opacity:1
+        }
+        50% {
+          transform: scale(1.2);
+          opacity:0.5 ;
+        }
+        100% {
+          transform: scale(1);
+          opacity:1 ;
+        }
+      }
+   
+    .h2location{
+        font-family: 'Creepster', cursive;
+    }
+
+    
+
 /* .container {
        
         justify-content: center;
@@ -44,7 +74,29 @@
       box-shadow: 0 0 0 0 rgba(20, 99, 23, 0.4);
     }
   }
+  
 */
+
+.h3{
+    
+    font-family: 'Creepster', cursive;
+    box-shadow: 0 0 0 0 rgba(20, 99, 23, 0.4);
+    animation: breathe 2s ease-in-out infinite;
+}
+@keyframes breathe {
+    0% {
+      transform: scale(1);
+      box-shadow: 0 0 0 0 rgba(20, 99, 23, 0.4);
+    }
+    50% {
+      transform: scale(1.2);
+      box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
+    }
+    100% {
+      transform: scale(1);
+      box-shadow: 0 0 0 0 rgba(20, 99, 23, 0.4);
+    }
+  }
 
 body{
     font-family: 'Lato', sans-serif;

@@ -23,7 +23,7 @@ const ResidentList = ({location}) => {
 
   return (
     <>
-    <section className='  p-4 grid gap-6 auto-rows-auto grid-cols-[repeat(auto-fill,_minmax(220px,_1fr))] max-w-[1000px] mx-auto'>
+    <section className=' sectionresidenlist p-4 grid gap-6 auto-rows-auto grid-cols-[repeat(auto-fill,_minmax(220px,_1fr))] max-w-[1000px] mx-auto'>
       {
          residents?.slice(startCut, endCut).map((resident) => (
          <ResidenCard key={resident} resident={resident} />
