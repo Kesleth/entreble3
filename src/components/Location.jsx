@@ -9,10 +9,9 @@ const Location = ({location}) => {
 <ul className= "flex justify-between px-3 sm:flex sm:justify-between  " >
     <li>type:{location?.type}</li>
     <li>Dimension:{location?.dimension}</li>
-    <li>population:{location?.residents.length}</li>
+    <li>population:{location?.residents?.length}</li>
 </ul>
     </section>
   )
 }
-
 export default Location
