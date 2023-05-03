@@ -49,7 +49,7 @@ function App() {
           <input   id='locationId' placeholder='type a location id... ' className='mt-5 border-2 border-solid border-[#8EFF8B] rounded-md bg-gray-500 opacity-40 shadow-lg shadow-[#8EFF8B]/70 text-white' type="text" />
           <button className=" search  mt-5 px-4 bg-[#23b81ecc] text-white shadow-lg shadow-[#8EFF8B]/70 rounded-[5px] ">search <i class='bx bx-search'></i></button>
          </div>
-         <h2 className=' elh2  flex  justify-center text-center text-3xl p-10 text-[#8EFF8B] sm:text-4xl'> ¡TE AMO SORGIA! </h2>
+         <h2 className=' elh2  flex  justify-center text-center text-3xl p-10 text-[#8EFF8B] sm:text-4xl'> Welcome to the crazy iniverse! </h2>
        </form>
        </div>
 
